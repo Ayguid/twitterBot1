@@ -1,0 +1,12 @@
+{
+  "name": "eadbox",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node twitter-bot.js"
+  },
+  "dependencies": {
+    "request": "^2.86.0",
+    "twitter": "^1.7.1"
+  }
+}
