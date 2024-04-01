@@ -1,18 +1,18 @@
 var request = require('request');
 var Twitter = require('twitter');
 var client = new Twitter({
-  consumer_key: 'MunJH3Rj35b8Mun3kWmzDjrfa',
-  consumer_secret: 'Kk3UYCBWI2KRMrXgZSXFyXsREOy8NrL20khwjGHIDQ0mbJ18YH',
-  access_token_key: '388045944-9q0HepEfw0MH28vP4ADM8m3cdkWfYMIdiWGy9A5y',
-  access_token_secret: 'NqHRBNJkNfbU0oNxhDWTqv3TmXu74iIlYiDKvkM2FueRE'
+  consumer_key: '',
+  consumer_secret: '',
+  access_token_key: '',
+  access_token_secret: ''
 });
 
-var baseUrl = 'https://guidoaimar.eadbox.com/api';
+var baseUrl = '';
 
 var credentials = {
   form: {
-    email: 'guidoaimar@gmail.com',
-    password: '47434272'
+    email: '',
+    password: ''
   }
 };
 
